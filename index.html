@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <title>Bootstrap Task</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+
+  <style>
+body::-webkit-scrollbar{
+    display: none;
+  }
+
+  .slider::-webkit-scrollbar{
+    display: none;
+  }
+.container-fluid{
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+    
+    .navbar-brand {
+      margin-right: auto; 
+    }
+    .navbar-nav {
+      margin-left: auto; 
+    }
+
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow-x: hidden;
+    }
+
+
+    .content {
+  position: absolute;
+  top: 50%; 
+  left: 30%; 
+  transform: translate(-50%, -50%); 
+  text-align: center; 
+  color: white; 
+}
+
+.content-second-last{
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+
+.content-last{
+     
+      padding: 20px;
+      margin: 10px;
+      text-align: center;
+
+    }
+    .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0;
+    margin-left: 0;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10vw 0;
+}
+
+
+  </style>
+
+</head>
+<body>
+    
+  <div class="container-fluid">
+
+    <div style="background-color: red;">&nbsp;</div>
+ <!-- Navigation Bar -->
+ <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding: 0 3vw;">
+    <a class="navbar-brand" href="#"><img src="https://images.squarespace-cdn.com/content/v1/5cf9063271f4070001810eff/1559947735605-3PGCAJ4584FM2QF3NS4U/TELI.Horizontal-4c.png?format=1500w" style="width: 15vw;"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav" style="display: flex; column-gap: 5vw;">
+        <li class="nav-item active" style="font-size: 1.5vw;">
+          <a class="nav-link" href="#">HOME</a>
+        </li>
+        <li class="nav-item" style="font-size: 1.5vw;">
+          <a class="nav-link" href="#">ABOUT</a>
+        </li>
+        <li class="nav-item" style="font-size: 1.5vw;">
+          <a class="nav-link" href="#">SERVICES</a>
+        </li>
+        <li class="nav-item" style="font-size: 1.5vw;">
+          <a class="nav-link" href="#">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div style="position: relative;">
+    <img src="https://images.squarespace-cdn.com/content/v1/5cf9063271f4070001810eff/1570832649124-KRKIBHJZUM6RBQRKN7VC/image-asset.jpeg?format=2500w" style="width: 100%;">
+    <div class="content">
+        <h5 style="font-size: 1.5vw; text-align: left;">LEADERSHIP DEVELOPMENT & TRAINING</h5>
+        <h1 style="font-size: 2.5vw; text-align: left;">EXTREME LEADERS<br>AWARD-WINNING CULTURES<br>RADICAL RESULTS</h1>
+      </div>
+  </div>
+
+  <div style="position: relative; background-color: #eceef0; height: 60vw;">
+    <img src="img1.jpg" style="width: 100%; margin-left: -28vw; height: 60vw;">
+
+    <div class="content-second-last" style="text-align: center; /* Optional: Center the text inside the content */
+    color: black;">
+
+    <p style="text-align:center;white-space:pre-wrap; font-size: 1.5vw;" class="">&nbsp;AWARD-WINNING CULTURE CONSULTING</p>
+    <h3 style="text-align:center;white-space:pre-wrap; font-size: 3vw;">WE'LL BREATHE NEW LIFE INTO YOUR WORKPLACE.</h3>
+    <p style="text-align:center;white-space:pre-wrap; font-size: 1.5vw;" class="">Founded by leadership pioneer and best-selling author Steve Farber, The Extreme Leadership Institute helps organizations realize their potential by using radical culture tranformation tactics rooted in passion, support, and most importantly—love. We help bright professionals grow into more productive, enthusiastic, and insightful leaders. The result? Increased engagement that transforms company cultures and supercharges profitability.</p>
+
+    <div style="display: flex;
+    justify-content: center;
+    align-items: center;">
+        <img src="https://images.squarespace-cdn.com/content/v1/5cf9063271f4070001810eff/1570832653394-427C44NXLLD8QGSDFK6P/image-asset.png?format=2500w" style="width: 50%;" alt="">
+    </div>
+
+</div>
+
+  </div>
+
+
+
+  <!-- Carousel -->
+
+
+    
+
+  
+
+
+<div class="slider" style="display: flex; overflow: auto;">
+    <div>
+        <img src="https://images.squarespace-cdn.com/content/v1/5cf9063271f4070001810eff/1570832688157-C69XKW3OAIV6WE4Z72Z0/home-brand-wsj.jpg?format=500w" style="width: 15vw;">
+    </div>
+    <div>
+        <img src="https://images.squarespace-cdn.com/content/v1/5cf9063271f4070001810eff/1570832677205-G4VW1YTNVKI0V8HV6VQQ/home-brand-att.jpg?format=500w" style="width: 15vw;">
+    </div>
+    <div>
+        <img src="https://images.squarespace-cdn.com/content/v1/5cf9063271f4070001810eff/1570832688157-C69XKW3OAIV6WE4Z72Z0/home-brand-wsj.jpg?format=500w" style="width: 15vw;">
+    </div>
+    <div>
+        <img src="https://images.squarespace-cdn.com/content/v1/5cf9063271f4070001810eff/1570832680192-4IKI30AJZ9XK617AH65U/home-brand-microsoft.jpg?format=500w" style="width: 15vw;">
+    </div><div>
+        <img src="https://images.squarespace-cdn.com/content/v1/5cf9063271f4070001810eff/1570832688157-C69XKW3OAIV6WE4Z72Z0/home-brand-wsj.jpg?format=500w" style="width: 15vw;">
+    </div><div>
+        <img src="https://images.squarespace-cdn.com/content/v1/5cf9063271f4070001810eff/1570832677205-G4VW1YTNVKI0V8HV6VQQ/home-brand-att.jpg?format=500w" style="width: 15vw;">
+    </div>
+    <div>
+        <img src="https://images.squarespace-cdn.com/content/v1/5cf9063271f4070001810eff/1570832688157-C69XKW3OAIV6WE4Z72Z0/home-brand-wsj.jpg?format=500w" style="width: 15vw;">
+    </div>
+    <div>
+        <img src="https://images.squarespace-cdn.com/content/v1/5cf9063271f4070001810eff/1570832688157-C69XKW3OAIV6WE4Z72Z0/home-brand-wsj.jpg?format=500w" style="width: 15vw;">
+    </div>
+    <div>
+        <img src="https://images.squarespace-cdn.com/content/v1/5cf9063271f4070001810eff/1570832688157-C69XKW3OAIV6WE4Z72Z0/home-brand-wsj.jpg?format=500w" style="width: 15vw;">
+    </div>
+    <div>
+        <img src="https://images.squarespace-cdn.com/content/v1/5cf9063271f4070001810eff/1570832680192-4IKI30AJZ9XK617AH65U/home-brand-microsoft.jpg?format=500w" style="width: 15vw;">
+
+    </div>
+    
+</div>
+
+
+<div class="row" style="background-image: url(https://images.squarespace-cdn.com/content/v1/5cf9063271f4070001810eff/1570832699190-28LURRVFV2GMYTPYHQOX/image-asset.jpeg?format=2500w); width: 100vw; background-size: cover; background-repeat: no-repeat; padding: 1.5vw 5vw;">
+    <div class="col-sm-12 col-md-6">
+      <div class="content-last">
+        <h1 style="white-space:pre-wrap; color: white; font-size: 80%; text-align: left;">MANAGEMENT TRAINING</h1>
+        <h3 style="white-space:pre-wrap; color: white; font-size: 120%; text-align: left;">READY TO RADICALLY CHANGE YOUR COMPANY’S CULTURE?</h3>
+        <p class="" style="white-space:pre-wrap; color: white; font-size: 100%; text-align: left;">Do your organization’s leaders see company challenges as an opportunity or an obligation?  Do they show up to work excited to make a positive impact in the lives of the people they lead? </p>
+        <p class="" style="white-space:pre-wrap; color: white; font-size: 100%; text-align: left;">We help excellent organizations nurture high-performing, supportive environments that foster more bottom-line results and beyond bottom-line enthusiasm and engagement.</p>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6">
+      <div class="content-last">
+        <img src="https://images.squarespace-cdn.com/content/v1/5cf9063271f4070001810eff/1570832700686-9FJTIMPVH6G86FAGRHWQ/image-asset.png?format=500w" style="width: 80%; padding: 2vw 0;">
+        <img src="https://images.squarespace-cdn.com/content/v1/5cf9063271f4070001810eff/1570843657010-AIX9U0IH5ZEC3UNL0MU5/home-videothumbnail-1.jpg?format=1500w" style="width: 85%;">
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
